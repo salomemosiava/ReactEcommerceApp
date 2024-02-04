@@ -21,10 +21,10 @@ export const Input = ({
     onChange={onChange}
     value={value}
     sx = {{
-        width: 500,
-        marginTop: 5,
+        width: 480,
+        margin: 2,
         "& fieldset": {
-            borderRadius: "20px"
+            borderRadius: "8px"
         },
         ...styles
     }}
